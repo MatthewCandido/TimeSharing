@@ -68,7 +68,6 @@ include "utils/banco.php"
               <input class="span2" type="password" placeholder="Password">
               <button type="button" class="btn">Sign in</button>
               <button type="button" id="btnSignUp" class="btn">Sign up</button>
-              <a href="#" id="btnSignUp">Sign up</a>
             </form>
           </div><!--/.nav-collapse -->
         </div>
