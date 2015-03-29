@@ -1,3 +1,7 @@
+<?php
+include "utils/banco.php"
+
+?> 
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -60,9 +64,11 @@
               </li>
             </ul>
             <form class="navbar-form pull-right">
-              <input class="span2" type="text" placeholder="Email">
+              <input class="span2" type="text" placeholder="Login">
               <input class="span2" type="password" placeholder="Password">
-              <button type="submit" class="btn">Sign in</button>
+              <button type="button" class="btn">Sign in</button>
+              <button type="button" id="btnSignUp" class="btn">Sign up</button>
+              <a href="#" id="btnSignUp">Sign up</a>
             </form>
           </div><!--/.nav-collapse -->
         </div>
@@ -108,7 +114,7 @@
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery.js"></script>
+    <script src="js/jquery-1.11.2.js"></script>
     <script src="js/bootstrap-transition.js"></script>
     <script src="js/bootstrap-alert.js"></script>
     <script src="js/bootstrap-modal.js"></script>
@@ -121,6 +127,7 @@
     <script src="js/bootstrap-collapse.js"></script>
     <script src="js/bootstrap-carousel.js"></script>
     <script src="js/bootstrap-typeahead.js"></script>
+    <script src="js/main.js"></script>
 
   </body>
 </html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Page Title</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="../css/bootstrap.css" rel="stylesheet">
+<link href="../css/bootstrap-responsive.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+<div class="row">
+<div class="span8">
+	<form class="form-horizontal" id="registerHere" method='post' action=''>
+	<fieldset>
+	
+	<legend>Registration</legend>
+	
+	<div class="control-group">
+	<label class="control-label">Name</label>
+	<div class="controls">
+	<input type="text" class="input-xlarge" id="user_name" name="user_name" rel="popover" data-content="Enter your first and last name." data-original-title="Full Name">
+	</div>
+	</div>
+	
+	
+	<div class="control-group">
+	<label class="control-label">Email</label>
+	<div class="controls">
+	<input type="text" class="input-xlarge" id="user_email" name="user_email" rel="popover" data-content="What’s your email address?" data-original-title="Email">
+	</div>
+	</div>
+	
+	<div class="control-group">
+	<label class="control-label"></label>
+	<div class="controls">
+	<button type="submit" class="btn btn-success" >Create My Account</button>
+	</div>
+	</div>
+	
+	</fieldset>
+	</form>
+</div>
+</div>
+</div>
+</body>
+</html>

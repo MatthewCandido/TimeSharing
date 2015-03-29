@@ -1,6 +1,10 @@
 <?php 
-$conecta = mysql_connect("", "root", "") or print (mysql_error()); 
-mysql_select_db("timeshaing", $conecta) or print(mysql_error()); 
-mysql_free_result($result); 
+$hostName = "";
+$userName = "root";
+$password = "";
+
+$conecta = mysql_connect($hostName, $userName, $password) or print (mysql_error()); 
+mysql_select_db("timesharing", $conecta) or print(mysql_error()); 
+
 mysql_close($conecta); 
 ?>
